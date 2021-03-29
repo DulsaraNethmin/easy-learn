@@ -1,0 +1,14 @@
+.chat
+{
+    display: grid;
+    grid-template-columns: 5fr 2fr;
+}
+
+.online
+{
+    padding-top: 10px;
+    background-color: white;
+    color: #303c6c;
+    border-left: 2px solid #d3d3d3;
+    padding-left: 10px;
+}

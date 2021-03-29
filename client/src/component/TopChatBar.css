@@ -1,0 +1,10 @@
+.chatbar
+{
+    color: #b4dfe5;
+    background-color: #303c6c;
+    font-size: 30px;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    padding-top: 5px;
+}
