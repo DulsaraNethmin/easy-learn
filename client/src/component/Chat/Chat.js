@@ -9,14 +9,15 @@ import onlineicon from '../../icons/onlineIcon.png';
 
 let socket='';
 
-const Chat =({location})=>
+const Chat =({room,name})=>
 {
 
     const [message, setMessage] = useState('');
     const [messages, setMessages] = useState([]);
     const [onlineUsers,setOnlineUsers]=useState([]);
     const ENDPOINT='localhost:8000';
-    const{name,room}=queryString.parse(location.search);
+    //const{name,room}=queryString.parse(location.search);
+
     useEffect(()=>
     {
         socket=io(ENDPOINT);
@@ -28,7 +29,7 @@ const Chat =({location})=>
             socket.off();
         }
 
-    },[ENDPOINT,location.search]);
+    },[ENDPOINT,room,name]);
 
     useEffect(()=>
     {
