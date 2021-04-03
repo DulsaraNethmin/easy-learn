@@ -1,0 +1,52 @@
+
+.send
+{
+    width:35px;
+    height:35px;
+    cursor: pointer;
+}
+
+
+.reply-area form
+{
+    display:grid;
+    grid-template-columns: 600px 45px;
+}
+
+.reply-box
+{
+    margin-left: 59px;
+}
+
+
+.reply-area form button
+{
+    width: 45px;
+    height: 45px;
+    border:none;
+    outline:none;
+    color: #fff;
+}
+
+
+.replyBox
+{
+    margin-left: 20px;
+    border-radius: 30px;
+    background-color:rgb(224, 236, 247);
+    max-width:300px;
+    max-height: 300px;
+    padding: 10px;
+    margin-bottom: 10px;
+
+}
+
+.date
+{
+    font-size:10px;
+
+}
+.name
+{
+    font-size:12px;
+}
