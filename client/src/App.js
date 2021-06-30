@@ -27,7 +27,7 @@ const App = () => {
                 <Route path='/login' component={Login}/>
                 <Route path='/home.student' component={HomeStu}/>
                 <Route path='/home.teacher' component={HomeTea}/>
-                <Route path='/fuck' component={Ask}/>
+                <Route path='/ask' component={Ask}/>
             {/* <Route path='/register'><Register/></Route>
                  
                 <Route path='/class.teacher' component={ClassTeacher}/>
